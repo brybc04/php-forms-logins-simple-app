@@ -152,7 +152,7 @@
         if($_SERVER['REQUEST_METHOD'] == "POST"){ 
         
         // Database connection    
-        $cox = mysqli_connect("localhost", "snoopblog", "qwerty10i","mynewdb1000") 
+        $cox = mysqli_connect("localhost", "root", "","mynewdb1000") 
                             or die("There was a problem while connecting");
                             
             $firstName = $_POST['reg_fname'];
