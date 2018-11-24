@@ -120,7 +120,7 @@
         <!-- starting point  -->
     <?php
       //xxx
-      $cox = mysqli_connect("localhost", "snoopblog", "qwerty10i","mynewdb1000") 
+      $cox = mysqli_connect("localhost", "root", "","mynewdb1000") 
           or die("There was a problem connecting");
       
       // var
