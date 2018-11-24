@@ -126,7 +126,7 @@
         <!--TO ACCESS PROGRAMS IN DB  -->
 		<?php
             // CON
-			$cox = mysqli_connect("localhost", "snoopblog", "qwerty10i","mynewdb1000") 
+			$cox = mysqli_connect("localhost", "root", "","mynewdb1000") 
 					or die("There was a problem connecting");	
 			// GETING THE ID FROM PROGRAM
 			$sql = "select program_id, program_name from program";
