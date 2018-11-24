@@ -4,7 +4,7 @@
 	$id = $_GET['id'];
 	
 	// initiate connection
-	$cox = mysqli_connect("localhost", "snoopblog", "qwerty10i", "mynewdb1000") 
+	$cox = mysqli_connect("localhost", "root", "","mynewdb1000") 
 			or die("There was a problem connecting");	
 	
 	//deleting by user_id
